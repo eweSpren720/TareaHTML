@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Hola mundo*&^%$#@#$%^&*&^%$#@!@#$%^
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>
+            Tarea de etiquetas HTML
+        </h1>
+        <img src="si.jpg" alt="una mona china" width="400" height="650">
+
+        <audio src="cancion.mp3" controls loop preload="auto" autoplay>
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
+
+        <ol start="3" type="A" compact>
+            <li>Manzanas</li>
+            <li>Plátanos</li>
+            <li>Naranjas</li>
+        </ol>
+
+        <a href="https://www.amazon.com.mx" target="_blank" title="Te lleva a amazon">Amazon</a>
+
+        <table style="color: blue;" border="1" width="500" cellspace="6">
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+            </tr>
+            <tr>
+              <td>Camisa</td>
+              <td>$20</td>
+            </tr>
+            <tr>
+              <td>Pantalón</td>
+              <td>$30</td>
+            </tr>
+          </table>
+
+          <form action="enviar" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+          
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo"><br>
+          
+          </form>
+
+    </body>
+</html>
